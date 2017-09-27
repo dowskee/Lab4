@@ -28,7 +28,7 @@ namespace Lab4
                 } 
                 else
                 
-                    Console.WriteLine("That is not a valid integer.");
+                    Console.WriteLine("That is not a valid integer. Please run again."); //find a way to loop? Do while with for?
                
             }
         }
