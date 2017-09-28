@@ -21,17 +21,17 @@ namespace Lab4
 
                 Console.WriteLine("Please enter an integer between 1 and 10:");
                 Input = long.Parse(Console.ReadLine()); //reads user's input and parses 
-                Console.WriteLine("You entered " + Input + ". The factorial of " + Input + " is:");
+                Console.WriteLine("You entered " + Input);
                 fact = Input;
                 //processing
-                for (i = Input - 1; i <= 1; i++)   // example: 5! = 5*4*3*2*1 (n! = n*(n-1)...*1)
+                for (i = Input - 1; i >= 1; i--)   // example: 5! = 5*4*3*2*1 (n! = n*(n-1)...*1)
                 {
                     //output
                     fact = (fact * i);
                 }
+
                 Console.WriteLine("The factorial of " + Input + " is: " + fact);
-
-
+                Console.ReadLine();
 
                 string Choice;
                 Console.WriteLine("Would you like to enter another number? Y/N?");
