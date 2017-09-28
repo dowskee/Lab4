@@ -31,8 +31,7 @@ namespace Lab4
                 }
 
                 Console.WriteLine("The factorial of " + Input + " is: " + fact);
-                Console.ReadLine();
-
+                
                 string Choice;
                 Console.WriteLine("Would you like to enter another number? Y/N?");
                 Choice = Console.ReadLine();
